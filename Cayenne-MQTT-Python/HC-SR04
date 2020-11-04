@@ -1,0 +1,61 @@
+#!/usr/bin/python
+import RPi.GPIO as GPIO
+import time
+ 
+#GPIO Mode (BOARD / BCM)
+GPIO.setmode(GPIO.BCM)
+ 
+#define GPIO pinos
+GPIO_TRIGGER = 17
+GPIO_ECHO = 27
+ 
+#define GPIO (IN / OUT)
+GPIO.setup(GPIO_TRIGGER, GPIO.OUT)
+GPIO.setup(GPIO_ECHO, GPIO.IN)
+ 
+def distance():
+
+    # define Trigger como HIGH
+    GPIO.output(GPIO_TRIGGER, True)
+ 
+    # define Trigger depois de pulso de 0.01ms para LOW
+    time.sleep(0.00001)
+    GPIO.output(GPIO_TRIGGER, False)
+ 
+    StartTime = time.time()
+    StopTime = time.time()
+ 
+    # salva tempo de ida da onda
+    while GPIO.input(GPIO_ECHO) == 0:
+        StartTime = time.time()
+ 
+    # salva tempo de chegada da onda
+    while GPIO.input(GPIO_ECHO) == 1:
+        StopTime = time.time()
+ 
+    # diferença de tempo entre o início e a chegada
+    TimeElapsed = StopTime - StartTime
+    # multiplique com a velocidade sônica (34300 cm / s)
+    # e divida por 2, porque ida e volta
+
+    # diferença de tempo entre o início e a chegada
+    TimeElapsed = StopTime - StartTime
+    # multiplique com a velocidade sônica (34300 cm / s)
+    # e divida por 2, porque ida e volta
+    distance = (TimeElapsed * 34300) / 2
+ 
+    return distance
+ 
+
+try:
+    while True:
+        dist = distance()
+        print ("Medindo Distância = %.1f cm" % dist)
+        time.sleep(1)
+ 
+        # Para pausar leitura CTRL + C
+except KeyboardInterrupt:
+    print("Pausado pelo usuário")
+    GPIO.cleanup()
+
+
