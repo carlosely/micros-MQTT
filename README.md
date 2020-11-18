@@ -9,7 +9,7 @@ Projeto II da disciplina de SISTEMAS MICROPROCESSADOS AVANÇADOS/2020B. Utilizan
 Passo a passo para rodar o código e visualizar os resultados obtidos com o projeto.
 
 ### GPIO
-GPIO 4 - Sensor de Luminosidade LDR (ENTRADA)
++ GPIO 4 - Sensor de Luminosidade LDR (ENTRADA)
 GPIO 5 - Sensor de Temperatura DHT22 (ENTRADA)
 GPIO 17 - Sinal Lâmpada (SAÍDA)
 GPIO 18 - Sinal Lâmpada (SAÍDA)
