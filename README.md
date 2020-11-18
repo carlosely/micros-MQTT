@@ -8,7 +8,7 @@ Projeto de Casa Inteligente da disciplina de SISTEMAS MICROPROCESSADOS AVANÇADO
 ### Requisitos
 + [Python 3.4+](https://www.python.org/downloads/) Já vem pré instalado na versão completa do Raspberry Pi OS.
 + [Eclipse Paho MQTT Python client library](https://github.com/eclipse/paho.mqtt.python)
-+ [Eclipse Paho MQTT Python client library](https://github.com/eclipse/paho.mqtt.python)
++ [Adafruit_Python_DHT library](https://github.com/adafruit/Adafruit_Python_DHT)
 
 ## Instruções para rodar o projeto
 Passo a passo para rodar o código e visualizar os resultados obtidos com o projeto.
