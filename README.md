@@ -46,7 +46,7 @@ Execução
 ------------
 Para executar o código do projeto basta rodar o arquivo:
 ```
-  Projeto2.py
+  Projeto2_rev5.py
  ``` 
  
 ### Visualização
