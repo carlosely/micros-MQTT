@@ -17,6 +17,8 @@ Passo a passo para rodar o código e visualizar os resultados obtidos com o proj
 
 ### Cabeamento
 <p style="text-align:center"><br/><img src="Cayenne-MQTT-Python/img/Esquema.jpeg" width="1025" height="664" alt="img cayenne"><br/><br/></p>
+<p style="text-align:center"><br/><img src="Cayenne-MQTT-Python/img/Foto1.jpeg" width="1152" height="648" alt="img cayenne"><br/><br/></p>
+<p style="text-align:center"><br/><img src="Cayenne-MQTT-Python/img/Foto2.jpeg" width="1152" height="648" alt="img cayenne"><br/><br/></p>
 
 ### Requisitos
 + [Python 3.4+](https://www.python.org/downloads/) Já vem pré instalado na versão completa do Raspberry Pi OS.
