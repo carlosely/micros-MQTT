@@ -16,7 +16,7 @@ Passo a passo para rodar o código e visualizar os resultados obtidos com o proj
 + GPIO 24 - Sensor de Presença DHT22 (ENTRADA)
 
 ### Cabeamento
-<p style="text-align:center"><br/><img src="Cayenne-MQTT-Python/img/Esquema.jpeg" width="1019" height="439" alt="img cayenne"><br/><br/></p>
+<p style="text-align:center"><br/><img src="Cayenne-MQTT-Python/img/Esquema.jpeg" width="1025" height="664" alt="img cayenne"><br/><br/></p>
 
 ### Requisitos
 + [Python 3.4+](https://www.python.org/downloads/) Já vem pré instalado na versão completa do Raspberry Pi OS.
