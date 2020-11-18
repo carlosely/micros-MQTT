@@ -5,6 +5,11 @@
 
 Projeto de Casa Inteligente da disciplina de SISTEMAS MICROPROCESSADOS AVANÇADOS/2020B. Utilizando Raspberry PI e My Device Cayenne.
 
+### Requisitos
++ [Python 3.4+](https://www.python.org/downloads/) Já vem pré instalado na versão completa do Raspberry Pi OS.
++ [Eclipse Paho MQTT Python client library](https://github.com/eclipse/paho.mqtt.python)
++ [Eclipse Paho MQTT Python client library](https://github.com/eclipse/paho.mqtt.python)
+
 ## Instruções para rodar o projeto
 Passo a passo para rodar o código e visualizar os resultados obtidos com o projeto.
 
@@ -20,9 +25,6 @@ Passo a passo para rodar o código e visualizar os resultados obtidos com o proj
 <p style="text-align:center"><br/><img src="Cayenne-MQTT-Python/img/Foto1.jpeg" width="1152" height="648" alt="img cayenne"><br/><br/></p>
 <p style="text-align:center"><br/><img src="Cayenne-MQTT-Python/img/Foto2.jpeg" width="1152" height="648" alt="img cayenne"><br/><br/></p>
 
-### Requisitos
-+ [Python 3.4+](https://www.python.org/downloads/) Já vem pré instalado na versão completa do Raspberry Pi OS.
-+ [Eclipse Paho MQTT Python client library](https://github.com/eclipse/paho.mqtt.python)
 
 Instalação
 ------------
