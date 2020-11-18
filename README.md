@@ -1,9 +1,9 @@
-# Projeto II da disciplina de SISTEMAS MICROPROCESSADOS AVANÇADOS
+# Casa Inteligente
 
 
 ## Introdução
 
-Projeto II da disciplina de SISTEMAS MICROPROCESSADOS AVANÇADOS/2020B. Utilizando Raspberry PI e My Device Cayenne.
+Projeto de Casa Inteligente da disciplina de SISTEMAS MICROPROCESSADOS AVANÇADOS/2020B. Utilizando Raspberry PI e My Device Cayenne.
 
 ## Instruções para rodar o projeto
 Passo a passo para rodar o código e visualizar os resultados obtidos com o projeto.
