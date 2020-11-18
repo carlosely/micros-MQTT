@@ -8,8 +8,15 @@ Projeto II da disciplina de SISTEMAS MICROPROCESSADOS AVANÇADOS/2020B. Utilizan
 ## Instruções para rodar o projeto
 Passo a passo para rodar o código e visualizar os resultados obtidos com o projeto.
 
+### GPIO
+GPIO 4 - Sensor de Luminosidade LDR (ENTRADA)
+GPIO 5 - Sensor de Temperatura DHT22 (ENTRADA)
+GPIO 17 - Sinal Lâmpada (SAÍDA)
+GPIO 18 - Sinal Lâmpada (SAÍDA)
+GPIO 24 - Sensor de Presença DHT22 (ENTRADA)
+
 ### Cabeamento
-Adicionar instruções de cabeamento e GPIO
+<p style="text-align:center"><br/><img src="Cayenne-MQTT-Python/img/Esquema.png" width="1019" height="439" alt="img cayenne"><br/><br/></p>
 
 ### Requisitos
 + [Python 3.4+](https://www.python.org/downloads/) Já vem pré instalado na versão completa do Raspberry Pi OS.
