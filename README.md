@@ -3,7 +3,7 @@
 
 ## Introdução
 
-Projeto de Casa Inteligente da disciplina de SISTEMAS MICROPROCESSADOS AVANÇADOS/2020B. Utilizando Raspberry PI e My Device Cayenne.
+Projeto de Casa Inteligente da disciplina de SISTEMAS MICROPROCESSADOS AVANÇADOS/2020B, utilizando Raspberry PI e My Device Cayenne.
 
 ### Requisitos
 + [Python 3.4+](https://www.python.org/downloads/) Já vem pré instalado na versão completa do Raspberry Pi OS.
