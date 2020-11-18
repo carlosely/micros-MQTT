@@ -10,10 +10,10 @@ Passo a passo para rodar o código e visualizar os resultados obtidos com o proj
 
 ### GPIO
 + GPIO 4 - Sensor de Luminosidade LDR (ENTRADA)
-GPIO 5 - Sensor de Temperatura DHT22 (ENTRADA)
-GPIO 17 - Sinal Lâmpada (SAÍDA)
-GPIO 18 - Sinal Lâmpada (SAÍDA)
-GPIO 24 - Sensor de Presença DHT22 (ENTRADA)
++ GPIO 5 - Sensor de Temperatura DHT22 (ENTRADA)
++ GPIO 17 - Sinal Lâmpada (SAÍDA)
++ GPIO 18 - Sinal Lâmpada (SAÍDA)
++ GPIO 24 - Sensor de Presença DHT22 (ENTRADA)
 
 ### Cabeamento
 <p style="text-align:center"><br/><img src="Cayenne-MQTT-Python/img/Esquema.png" width="1019" height="439" alt="img cayenne"><br/><br/></p>
